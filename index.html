@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/styles.css" />
+    <script src="./js/index.js"></script>
 
     <title>Inmoviliaria</title>
 </head>
@@ -28,10 +29,10 @@
 
     <div class="container-sections">
         <section>
-            <h2>Más sobre nosotros</h2>
-            
-            <div class="container-details">
-                <div class="container-details">
+            <h2 class="subtitulo">Más sobre nosotros</h2>
+
+            <div id="container-details" class="container-details">
+                <div>
                     <h3>Seguridad</h3>
                     <img src="./assets/img/icono1.svg" alt="Icono Seguridad" />
                     <p>
@@ -42,7 +43,7 @@
                     </p>
                 </div>
         
-                <div class="container-details">
+                <div>
                     <h3>Mejor Precio</h3>
                     <img src="./assets/img/icono2.svg" alt="Icono Precio" />
                     <p>
@@ -53,7 +54,7 @@
                     </p>
                 </div>
         
-                <div class="container-details">
+                <div>
                     <h3>A Tiempo</h3>
                     <img src="./assets/img/icono3.svg" alt="Icono Tiempo" />
                     <p>
@@ -66,77 +67,108 @@
         </section>
     
         <section>
-            <h2>Casas y Departamentos en Ventas</h2>
+            <h2 class="subtitulo">Casas y Departamentos en Ventas</h2>
     
-            <div class="container-details">
-                <div>
-                    <h3>Casa de Lujo en el lago</h3>
-                    <img src="./assets/img/anuncio1.jpg" alt="Anuncio 1" />
-                    
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                        Expedita perferendis doloribus temporibus minima doloremque ipsam qui placeat 
-                        saepe cupiditate tenetur. Quo neque quia, voluptate impedit perspiciatis quasi
-                        aut optio eius.
-                    </p>
-                    
-                    <b>u$s350.000</b>
-        
-                    <div>
-                        <img src="./assets/img/icono_wc.svg" alt="Baño"/>
-                        <img src="./assets/img/icono_estacionamiento.svg" alt="Estacionamiento"/>
-                        <img src="./assets/img/icono_dormitorio.svg" alt="Dormitorio"/>
+            <div class="house-articles">
+                <article class="card house-article">
+                   <div class="card-body">
+                    <h3>Casa de Lujo en el Lago</h3>
+
+                        <div class="card-img">
+                            <img src="./assets/img/anuncio1.jpg" alt="Anuncio1">
+                        </div>
+
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Ducimus ipsam labore dignissimos aspernatur officia atque
+                            </p>
+                            <b>u$s350.000</b>
+                        </div>
+
+                        <div class="card-icono">
+                            <img src="./assets/img/icono_wc.svg" alt="Baño" />
+                            <img src="./assets/img/icono_estacionamiento.svg" alt="Estacionamiento" />
+                            <img src="./assets/img/icono_dormitorio.svg" alt="Dormitorio" />
+                        </div>
+
+                        <a href="#">
+                            <button class="btn">Ver propiedad</button>
+                        </a>
                     </div>
-                </div>
-        
-                <div>
-                    <h3>Casa Terminados de lujos</h3>
-                    <img src="./assets/img/anuncio2.jpg" alt="Anuncio 2" />
-                    
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                        Earum dolores corrupti doloremque qui, ratione temporibus omnis ullam facilis
-                        fuga, harum itaque eum porro, nam vero saepe aliquam quo impedit accusantium?
-                    </p>
-                    
-                    <b>u$s275.000</b>
-                    
-                    <div>
-                        <img src="./assets/img/icono_wc.svg" alt="Baño"/>
-                        <img src="./assets/img/icono_estacionamiento.svg" alt="Estacionamiento"/>
-                        <img src="./assets/img/icono_dormitorio.svg" alt="Dormitorio"/>
+
+                </article>
+
+                <article class="card house-article">
+                    <div class="card-body">
+                        <h3>Casa con terminos Lujos</h3>
+    
+                        <div class="card-img">
+                            <img src="./assets/img/anuncio2.jpg" alt="Anuncio2">
+                        </div>
+    
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Ducimus ipsam labore dignissimos aspernatur officia atque
+                            </p>
+                            <b>u$s350.000</b>
+                        </div>
+    
+    
+                        <div class="card-icono">
+                            <img src="./assets/img/icono_wc.svg" alt="Baño" />
+                            <img src="./assets/img/icono_estacionamiento.svg" alt="Estacionamiento" />
+                            <img src="./assets/img/icono_dormitorio.svg" alt="Dormitorio" />
+                        </div>
+    
+                        <a href="#">
+                            <button class="btn">Ver propiedad</button>
+                        </a>
                     </div>
-                </div>
-        
-                <div>
-                    <h3>Casa con Pileta</h3>
-                    
-                    <img src="./assets/img/anuncio3.jpg" alt="Anuncio 3" />
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                        Dolor nostrum vel tempora delectus, perspiciatis architecto hic 
-                        voluptate cupiditate unde! Similique eius molestiae quae minus aspernatur, 
-                        consequatur et quasi impedit incidunt.
-                    </p>
-                    
-                    <b>u$s250.000</b>
-        
-                    <div>
-                        <img src="./assets/img/icono_wc.svg" alt="Baño"/>
-                        <img src="./assets/img/icono_estacionamiento.svg" alt="Estacionamiento"/>
-                        <img src="./assets/img/icono_dormitorio.svg" alt="Dormitorio"/>
+ 
+                 </article>
+
+                <article class="card house-article">
+                    <div class="card-body">
+                        <h3>Casa con Pileta</h3>
+ 
+                        <div class="card-img">
+                            <img src="./assets/img/anuncio3.jpg" alt="Anuncio3">
+                        </div>
+    
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Ducimus ipsam labore dignissimos aspernatur officia atque
+                            </p>
+                            <b>u$s350.000</b>
+    
+                        </div>
+    
+    
+                        <div class="card-icono">
+                            <img src="./assets/img/icono_wc.svg" alt="Baño" />
+                            <img src="./assets/img/icono_estacionamiento.svg" alt="Estacionamiento" />
+                            <img src="./assets/img/icono_dormitorio.svg" alt="Dormitorio" />
+                        </div>
+    
+                        <a href="#">
+                            <button class="btn">Ver propiedad</button>
+                        </a>
                     </div>
-                </div>
+ 
+                </article>
             </div>
     
         </section>
     
         <section>
-            <h2>Encuentra la casa de tus sueños</h2>
+            <h2 class="subtitulo">Encuentra la casa de tus sueños</h2>
         </section>
     
         <section>
-            <h2>Nuestro Blog</h2>
+            <h2 class="subtitulo">Nuestro Blog</h2>
     
             <h3>Terraza en el techo de tu casa</h3>
             <img src="./assets/img/blog1.jpg" alt="Blog 1" />
@@ -145,7 +177,6 @@
             <img src="./assets/img/blog2.jpg" alt="Blog 2" />
     
             <h2>Comentarios</h2>
-            <img src="./assets/img/blog3.jpg" alt="Blog 3" />
     
         </section>
     </div>
