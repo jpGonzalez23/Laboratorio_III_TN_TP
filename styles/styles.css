@@ -50,6 +50,62 @@ header h1 {
   font-size: 50px;
 }
 
+h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  font-family: poppins, Arial, Helvetica, sans-serif;
+}
+
+.container-details {
+  width: 100%;
+
+  justify-content: center;
+
+  gap: 2rem;
+}
+
+.container-detail {
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 1rem;
+}
+
+.detail-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.detail-img img {
+  width: 20%;
+}
+
+.detail-body {
+  padding: 0.5rem;
+
+  flex-direction: column;
+
+  gap: 1rem;
+}
+
+.detail-body h3 {
+  display: flex;
+  font-size: 30px;
+
+  flex-direction: row;
+  justify-content: center;
+}
+
+.detail-body p {
+  font-size: 20px;
+  
+  /*flex-direction: column;
+  justify-content: right;*/
+}
 
 .card {
   background: #dedede;
@@ -72,6 +128,21 @@ header h1 {
   width: 400px;
 }
 
+.house-details {
+  width: 100%;
+
+  justify-content: center;
+
+  gap: 2rem;
+}
+
+.house-detail {
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 1rem;
+}
+
 .house-article .card-img img {
   width: 100%;
   height: auto;
@@ -86,7 +157,6 @@ header h1 {
 .house-article .card-img img:hover {
   opacity: 1;
 }
-
 
 .card-body {
   padding: 0.5rem;
@@ -103,21 +173,6 @@ header h1 {
 .card-body b {
   font-size: 20px;
   color: green;
-}
-
-.house-details {
-  width: 100%;
-
-  justify-content: center;
-
-  gap: 2rem;
-}
-
-.house-detail {
-  align-items: center;
-  justify-content: space-between;
-
-  gap: 1rem;
 }
 
 .card-body button {

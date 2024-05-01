@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <link rel="stylesheet" href="./styles/styles.css" />
-    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/global.css" />
     <link rel="Icono" type="img/x-icon" href="assets/img/logo.svg" />
 
     <script src="./js/index.js"></script>
@@ -14,6 +14,7 @@
 </head>
 
 <body>
+    <!--Barra-->
     <header class="flex">
         <div class="barra flex">
             <img src="./assets/img/logo.svg" alt="Logo Pincipal" />
@@ -32,46 +33,66 @@
     </header>
 
     <div class="container-sections">
+        <!---Detalles-->
         <section>
             <h2>Más sobre nosotros</h2>
+            <div class="container-details flex">
+                <div class="container-detail card">
 
-            <div id="container-details" class="container-details">
-                <div class="container-detail">
-                    <h3>Seguridad</h3>
-                    <img src="./assets/img/icono1.svg" alt="Icono Seguridad" />
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                        Eveniet delectus modi quae maxime quas maiores voluptas similique tempore, 
-                        officiis amet, eius saepe quam repudiandae accusantium! Facilis animi quia 
-                        voluptates nobis.
-                    </p>
+                    <div class="detail-img">
+                        <img src="./assets/img/icono1.svg" alt="Icono Seguridad">
+                    </div>
+
+                    <div class="detail-body">
+                        <h3>Seguridad</h3>
+
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Mollitia delectus possimus quo facere, voluptas, 
+                            soluta rerum dolor minus vel minima eos eligendi iste vitae eaque eveniet nobis atque quae doloremque.
+                        </p>
+                    </div>
                 </div>
-        
-                <div class="container-detail">
-                    <h3>Mejor Precio</h3>
-                    <img src="./assets/img/icono2.svg" alt="Icono Precio" />
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, 
-                        adipisicing elit. Obcaecati quisquam sequi nemo a fugiat esse! Earum eius ipsa 
-                        ex voluptatem autem aperiam obcaecati doloremque voluptatibus, placeat repellat 
-                        incidunt ab commodi.
-                    </p>
+
+                <div class="container-detail card">
+
+                    <div class="detail-img">
+                        <img src="./assets/img/icono2.svg" alt="Icono Precio">
+                    </div>
+
+                    <div class="detail-body">
+                        <h3>Precio</h3> 
+
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Mollitia delectus possimus quo facere, voluptas, 
+                            soluta rerum dolor minus vel minima eos eligendi iste vitae eaque eveniet nobis atque quae doloremque.
+                        </p>
+                    </div>
                 </div>
-        
-                <div class="container-detail">
-                    <h3>A Tiempo</h3>
-                    <img src="./assets/img/icono3.svg" alt="Icono Tiempo" />
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                        Iusto praesentium aperiam esse est repellendus beatae, porro ipsum quia vitae
-                        sit incidunt libero aut fuga omnis soluta temporibus adipisci officia officiis!
-                    </p>
+
+                <div class="card container-detail card">
+
+                    <div class="detail-img">
+                        <img src="./assets/img/icono3.svg" alt="Icono Seguridad">
+                    </div>
+
+                    <div class="detail-body justify-content-center">
+                        <h3>A Tiempo</h3>
+
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Mollitia delectus possimus quo facere, voluptas, 
+                            soluta rerum dolor minus vel minima eos eligendi iste vitae eaque eveniet nobis atque quae doloremque.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
-    
+
+        <!--Descripción de articulos de casa-->
         <section>
-            <h2 class="subtitulo">Casas y Departamentos en Ventas</h2>
+            <h2>Casas y Departamentos en Ventas</h2>
     
             <div class="house-articles flex">
                 <article class="card house-article">
@@ -195,12 +216,14 @@
     
         </section>
     
+        <!---->
         <section>
-            <h2 class="subtitulo">Encuentra la casa de tus sueños</h2>
+            <h2>Encuentra la casa de tus sueños</h2>
         </section>
     
+        <!---->
         <section>
-            <h2 class="subtitulo">Nuestro Blog</h2>
+            <h2>Nuestro Blog</h2>
     
             <h3>Terraza en el techo de tu casa</h3>
             <img src="./assets/img/blog1.jpg" alt="Blog 1" />
