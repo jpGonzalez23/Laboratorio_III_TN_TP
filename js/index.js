@@ -11,13 +11,13 @@ function onInit() {
 
 function modificarDetallesNosotros() {
   const arr = getFromApi();
-  var divDad = document.getElementById("container-sections");
+  var divDad = document.getElementById("container-details");
 
   for (let i = 0; i < arr.length; i++) {
     const aux = arr[i];
     
     var divChild = document.createElement("div");
-    divChild.className = 'container-sections';
+    divChild.className = 'container-detail';
 
     var imgChild = document.createElement("img");
     imgChild.src = aux.img;
@@ -39,7 +39,7 @@ function modificarDetallesNosotros() {
 function getFromApi() {
   return [
     { id: 1, img: './assets/img/icono3.svg', alt: 'Icono 2', title: 'Titulo Dinamico 1', text: 'Contenido 1' },
-    { id: 2, img: './assets/imag/icono3.svg', alt: 'Icono 2', title: 'Titulo Dinamico 2', text: 'Contenido 2' },
+    { id: 2, img: './assets/img/icono3.svg', alt: 'Icono 2', title: 'Titulo Dinamico 2', text: 'Contenido 2' },
   ];
 }
 
