@@ -1,6 +1,6 @@
 @font-face {
 	font-family: poppins;
-	src: url(../assets/font/Poppins/Poppins-Black.ttf);
+	src: url(../assets/font/Poppins/Poppins-BlackItalic.ttf);
 }
 
 header {
@@ -59,6 +59,10 @@ h2 {
   font-family: poppins, Arial, Helvetica, sans-serif;
 }
 
+.container-sections {
+  background-color: white;
+}
+
 .container-details {
   width: 100%;
 
@@ -103,15 +107,11 @@ h2 {
 
 .detail-body p {
   font-size: 20px;
-  
-  /*flex-direction: column;
-  justify-content: right;*/
 }
 
 .card {
   background: #dedede;
 
-  /* border-radius: 1rem; */
   border: #bebebe solid 2px;
 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para resaltar la tarjeta */
@@ -150,9 +150,6 @@ h2 {
 
   opacity: 0.75;
 	transition: opacity 2s;
-
-  /* border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem; */
 }
 
 .house-article .card-img img:hover {
@@ -183,7 +180,13 @@ h2 {
   background: #e08709;
 }
 
-.btn-green {
+.btnPublicidad {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.btnPublicidad button {
   width: 100%;
   height: 2rem;
   margin: auto;
@@ -192,6 +195,9 @@ h2 {
   align-items: center;
 
   float: right;
+
+  background-color: green;
+  color: white;
 }
 
 footer nav ul {
@@ -200,7 +206,7 @@ footer nav ul {
 
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: right;
 }
 
 footer {
