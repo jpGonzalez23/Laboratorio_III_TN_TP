@@ -14,38 +14,258 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#">
-                <img src="./assets/img/logo.svg" width="200" height="30" class="d-inline-block align-top" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#">Disabled</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
+      <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+        
+        <a class="navbar-brand" href="#">
+          <img src="./assets/img/logo.svg" alt="Logo">
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#Nosotros">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Anuncios">Anuncios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+      <h1 class="d-flex align-items-end">Ventas de casas y departamentos exclusivos de lujos</h1>
     </header>
 
-    <main>
+    <div class="contenedor-sections">
+      <!---sobre nosotros-->
+      <section >
+        <h2 class="text-center">Más sobre nosotros</h2>
+        
+        <div class="d-flex justify-content-around">
+          <div class="card text-center" style="width: 15rem;">
+            <img class="card-img-top" src="./assets/img/icono1.svg" alt="Icono Seguridad">
+            <div class="card-body">
+              <h5 class="card-title">Seguridad</h5>
+  
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              </p>
+            </div>
+          </div>
+  
+          <div class="card text-center" style="width: 15rem;">
+            <img class="card-img-top" src="./assets/img/icono2.svg" alt="Icono Precio">
+            <div class="card-body">
+              <h5 class="card-title">Precio</h5>
+  
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              </p>
+            </div>
+          </div>
+  
+          <div class="card text-center" style="width: 12rem;">
+            <img class="card-img-top" src="./assets/img/icono3.svg" alt="Icono Tiempo">
+            <div class="card-body">
+              <h5 class="card-title">Tiempo</h5>
+  
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-    </main>
+      <!--casas y departamento en venta-->
+      <section>
+        <h2 class="text-center">Casas y Departametos en Venta</h2>
+
+        <div class="card-group" style="max-width: 200rem;">
+          <div class="card">
+            <img class="card-img-top" src="./assets/img/anuncio1.jpg" alt="Anuncio 1">
+            <div class="card-body">
+              <h5 class="card-title">Casa lujosas</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Deserunt ratione ipsum odio adipisci, unde in explicabo 
+              </p>
+
+              <b>u$S400.000</b>
+
+              <div class="d-flex justify-content-between">
+                <div>
+                  <img src="./assets/img/icono_wc.svg" alt="Icono Banios" />
+                  <span>3</span>
+                </div>
+  
+                <div>
+                  <img src="./assets/img/icono_estacionamiento.svg" alt="Icono Estacionamiento" />
+                  <span>3</span>
+                </div>
+  
+                <div>
+                  <img src="./assets/img/icono_dormitorio.svg" alt="Icono dormitorios" />
+                  <span>3</span>
+                </div>
+              </div>
+              <a href="#VerPublicidad" class="btn btn-success">Ver Publicidad</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img class="card-img-top" src="./assets/img/anuncio2.jpg" alt="Anuncio 2">
+            <div class="card-body">
+              <h5 class="card-title">Casa con Pileta</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Deserunt ratione ipsum odio adipisci, unde in explicabo 
+              </p>
+
+              <b>u$S250.000</b>
+
+              <div class="d-flex justify-content-between">
+                <div>
+                  <img src="./assets/img/icono_wc.svg" alt="Icono Banios" />
+                  <span>3</span>
+                </div>
+  
+                <div>
+                  <img src="./assets/img/icono_estacionamiento.svg" alt="Icono Estacionamiento" />
+                  <span>3</span>
+                </div>
+  
+                <div>
+                  <img src="./assets/img/icono_dormitorio.svg" alt="Icono dormitorios" />
+                  <span>3</span>
+                </div>
+              </div>
+
+              <div class="btnDetalle">
+                <a href="#VerPublicidad" class="btn btn-success">Ver Publicidad</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img class="card-img-top" src="./assets/img/anuncio3.jpg" alt="Anuncio 1">
+            <div class="card-body">
+              <h5 class="card-title">Casa con Pileta</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Deserunt ratione ipsum odio adipisci, unde in explicabo 
+              </p>
+
+              <b>u$S350.000</b>
+
+              <div class="d-flex justify-content-between">
+                <div>
+                  <img src="./assets/img/icono_wc.svg" alt="Icono Banios" />
+                  <span>3</span>
+                </div>
+  
+                <div>
+                  <img src="./assets/img/icono_estacionamiento.svg" alt="Icono Estacionamiento" />
+                  <span>3</span>
+                </div>
+  
+                <div>
+                  <img src="./assets/img/icono_dormitorio.svg" alt="Icono dormitorios" />
+                  <span>3</span>
+                </div>
+              </div>
+              <a href="#VerPublicidad" class="btn btn-success">Ver Publicidad</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-end">
+          <a href="#VerMas" class="btn btn-primary">Ver más</a>
+        </div>
+      </section>
+
+      <!--encuentra la casa de tu sueño-->
+      <section>
+        <h2 class="text-left">La casa de tus sueños</h2>
+      </section>
+      
+      <!-- nuestro bolg y comentarios-->
+      <section>
+        <div class="card-group">
+          <!--- nuestro blog -->
+          <div class="card">
+            <h2 class="card-title text-center">Nuestro Blog</h5>
+            <div class="card-group">
+              <div class="card">
+                <img class="card-img-left" src="./assets/img/blog1.jpg" alt="Blog 1">
+                <div class="card-body">
+                  <h5 class="card-title">titulo blog 1</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Odit alias ipsam placeat corrupti asperiores soluta magni 
+                    natus nostrum praesentium, consequuntur velit nulla blanditiis 
+                    doloremque enim iure ea at aspernatur possimus?
+                  </p>
+                </div>
+              </div>
+
+              <div class="card">
+                <img class="card-img-sm-left" src="./assets/img/blog2.jpg" alt="Blog 2">
+                <div class="card-body">
+                  <h5 class="card-title">titulo blog 2</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Odit alias ipsam placeat corrupti asperiores soluta magni 
+                    natus nostrum praesentium, consequuntur velit nulla blanditiis 
+                    doloremque enim iure ea at aspernatur possimus?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!---comentarios-->
+          <div class="card">
+            <h2 class="card-title text-center">Comentarios</h2>
+
+            <div class="card-body border border-primary text-center align-items-center">
+              <p class="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Ipsum ducimus hic architecto voluptas impedit quo voluptatem, odit vel velit corporis minus optio repudiandae quis nostrum, ipsa laudantium adipisci obcaecati porro?
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
 
     <footer>
-
+      <nav class="navbar navbar-expand-lg navbar-light navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </footer>
 </body>
 </html>

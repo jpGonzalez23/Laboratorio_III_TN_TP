@@ -9,3 +9,21 @@ header {
     height: 100vh;
     font-family: poppins, sans-serif;
 }
+
+header h1 {
+    color: white;
+    width: 700px;
+    font-size: 50px;
+}
+
+
+.contenedor-sections {
+    background-color: white;
+}
+
+.contenedor-detalles {
+    width: 50%;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
