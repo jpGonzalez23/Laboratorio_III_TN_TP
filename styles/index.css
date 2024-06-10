@@ -16,7 +16,6 @@ header h1 {
     font-size: 50px;
 }
 
-
 .contenedor-sections {
     background-color: white;
 }
@@ -26,4 +25,23 @@ header h1 {
     justify-content: center;
     flex-direction: column;
     gap: 2rem;
+}
+
+.casaDelSuenio {
+    padding: 20px 20px;
+    align-content: center;
+    background-image: url(../assets/img/encuentra.jpg);
+    height: 50vh;
+}
+
+.casaDelSuenio h2 {
+    color: white;
+}
+
+.casaDelSuenio p {
+    color: white;
+}
+
+.comenTarjeta {
+    display: flex;
 }
